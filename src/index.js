@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import "cesium/Source/Widgets/widgets.css";
-import buildModuleUrl from "cesium/Source/Core/buildModuleUrl";
+import "cesium/Widgets/widgets.css";
+import buildModuleUrl from "cesium/Core/buildModuleUrl";
 buildModuleUrl.setBaseUrl('./cesium/');
 
 ReactDOM.render(<App />, document.getElementById('root'));
